@@ -9,7 +9,6 @@ function generateDataSet(amount, minSize, maxSize) {
 		var random = getRandom(minSize, maxSize);
 		result.push(random);
 	}
-
 	return result;
 
 }
